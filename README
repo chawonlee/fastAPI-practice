@@ -1,0 +1,49 @@
+# Python 가상환경 설정 가이드
+
+## 1. 가상환경 만들기
+
+```bash
+python -m venv myapi
+```
+
+## 2. 가상환경 진입
+
+```bash
+cd C:\venvs\myapi\Scripts
+activate
+```
+
+## 3. 가상환경 벗어나기
+
+```bash
+deactivate
+```
+
+## 4. Git 원격 저장소 연결하기
+
+### 원격 저장소 추가
+```bash
+git remote add origin <원격저장소_URL>
+```
+
+예시:
+```bash
+git remote add origin https://github.com/사용자명/저장소명.git
+```
+
+### 파일 커밋 및 푸시
+```bash
+# 파일 추가
+git add .
+
+# 커밋
+git commit -m "Initial commit"
+
+# 원격 저장소에 푸시
+git push -u origin master
+```
+
+### 원격 저장소 확인
+```bash
+git remote -v
+```
