@@ -2,19 +2,19 @@
 
 ## 1. 가상환경 만들기
 
-```powershell
+```
 python -m venv myapi
 ```
 
 ## 2. 가상환경 진입
 
-```powershell
+```
 cd C:\venvs\myapi\Scripts
 activate
 ```
 
 ## 3. 가상환경 벗어나기
 
-```powershell
+```
 deactivate
 ```
